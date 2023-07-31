@@ -1,3 +1,19 @@
+// Too short
+// let password = "pass";
+
+// Contains a space 
+password = "Contains space";
+
+// Doesn't use a digit
+// password = "my-password";
+
+// Repeats first and last 3 chars
+// password = "abc123abc";
+
+// Strong password
+// password = "StrongPassword1";
+
+// See if function returns an error message or not
 let message = testPassword(password);
 if (message) {
    console.log(message);
