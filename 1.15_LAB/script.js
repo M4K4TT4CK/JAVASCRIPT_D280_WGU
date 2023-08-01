@@ -1,13 +1,9 @@
 function drawTriangle(size) {
-
-   for (let i = 0; i <= size; i++){
-      let line = ' '
-      for (let j = 0; j <= size; j++) {
-         line = '*'
-      }
-      console.log(line)
+   for (let i = 1; i <= size; i++) {
+     let line = '*'.repeat(i);
+     console.log(line);
    }
-   
-}
-
-drawTriangle(4)
+ }
+ 
+ // Test the function with size 4
+ drawTriangle(4);
