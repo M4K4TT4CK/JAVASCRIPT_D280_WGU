@@ -1,0 +1,8 @@
+.highlight {
+    border: 1px dashed gray;
+    cursor: pointer;
+ }
+ .hide {
+    color: transparent;
+ }
+ 
